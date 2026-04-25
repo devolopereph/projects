@@ -1,29 +1,29 @@
 # Ephe Portfolio
 
-Modern, responsive and interactive personal portfolio site for Efe (`ephe`). It presents profile details, technology stack, GitHub projects, social links and a small archery interaction in a polished single-page layout.
+Efe (`ephe`) için hazırlanmış modern, responsive ve interaktif kişisel portfolyo sitesi. Profil bilgilerini, teknoloji yığınını, GitHub projelerini, sosyal bağlantıları ve küçük bir okçuluk etkileşimini tek sayfalık sade bir arayüzde sunar.
 
-## Preview
+## Önizleme
 
-![Ephe Portfolio home screenshot](assets/screenshots/home.png)
+![Ephe Portfolio ana sayfa ekran görüntüsü](assets/screenshots/home.png)
 
-## Screenshots
+## Ekran Görüntüleri
 
-![Ephe Portfolio hero section](assets/screenshots/hello.png)
+![Ephe Portfolio giriş bölümü](assets/screenshots/hello.png)
 
-![Ephe Portfolio projects section](assets/screenshots/projects.png)
+![Ephe Portfolio projeler bölümü](assets/screenshots/projects.png)
 
-![Ephe Portfolio mobile view](assets/screenshots/mobile.png)
+![Ephe Portfolio mobil görünüm](assets/screenshots/mobile.png)
 
-## Features
+## Özellikler
 
-- Responsive single-page portfolio layout
-- Animated hero, reveal effects and custom cursor glow
-- GitHub repositories loaded from the GitHub public API
-- Technology stack cards with Devicon assets
-- Interactive archery canvas section
-- Contact cards for GitHub, YouTube, Instagram and email
+- Responsive tek sayfa portfolyo yapısı
+- Animasyonlu hero alanı, scroll reveal efektleri ve özel cursor glow
+- GitHub public API üzerinden otomatik proje kartları
+- Devicon destekli teknoloji kartları
+- Canvas ile hazırlanmış interaktif okçuluk bölümü
+- GitHub, YouTube, Instagram ve e-posta iletişim kartları
 
-## Tech Stack
+## Teknolojiler
 
 - HTML5
 - CSS3
@@ -31,21 +31,21 @@ Modern, responsive and interactive personal portfolio site for Efe (`ephe`). It 
 - GitHub REST API
 - Devicon CDN
 
-## Run Locally
+## Yerelde Çalıştırma
 
-This is a static website, so it can be opened directly in a browser. For a local server:
+Bu proje statik bir web sitesidir; doğrudan tarayıcıda açılabilir. Yerel sunucuyla çalıştırmak için:
 
 ```bash
 python3 -m http.server 5173
 ```
 
-Then open:
+Ardından tarayıcıda açın:
 
 ```text
 http://localhost:5173
 ```
 
-## Project Structure
+## Proje Yapısı
 
 ```text
 .
@@ -57,10 +57,10 @@ http://localhost:5173
 └── README.md
 ```
 
-## Deployment
+## Yayına Alma
 
-The project is ready for GitHub Pages. Use the repository root as the Pages source.
+Proje GitHub Pages üzerinde yayınlanmaya uygundur. Monorepo içinde bulunduğu için yayınlama sırasında kaynak klasör olarak `web/ephe-portfolio` seçilmelidir.
 
-## License
+## Lisans
 
-No license has been added yet. Add one before allowing reuse, modification or distribution by others.
+Henüz lisans eklenmemiştir. Yeniden kullanım, dağıtım veya katkı kabul edilmeden önce uygun bir lisans eklenmelidir.

@@ -1,18 +1,18 @@
-# 🚀 Yazılım Portfolyosu
+# Yazılım Portfolyosu
 
-Bu depo, modern teknolojilerle geliştirdiğim yazılım çözümlerini içeren merkezi Monorepo'dur.
+Bu depo, geliştirdiğim web, mobil ve Python projelerini tek yerde topladığım public portfolyo deposudur. Her proje kendi klasöründe kaynak kodu, kurulum notları ve ekran görüntüleriyle birlikte tutulur.
 
-## 🛠️ Proje Vitrini
+## Proje Vitrini
 
-| Proje | Kategori | Teknoloji Yığını | Dokümantasyon | Durum |
-| :--- | :--- | :--- | :---: | :---: |
-| **[Ephe Portfolio](./web/ephe-portfolio)** | Web Sitesi | HTML, CSS, JavaScript | [README](./web/ephe-portfolio/README.md) | ✅ |
-| **[QR Menü Sistemi](./web/qr-menu-sistemi)** | Web Uygulaması | Next.js, TS, SQLite | [README](./web/qr-menu-sistemi/README.md) | ✅ |
-| **[Not Defteri](./flutter/not-defteri)** | Mobil Uygulama | Flutter, Dart, BLoC | [README](./flutter/not-defteri/README.md) | ✅ |
-| **[Bankamatik](./python/bankamatik)** | Python Script | Python, SQL | [README](./python/bankamatik/README.md) | ✅ |
-| **[Kitap Takip](./python/kitap_takip)** | Python Script | Python, SQL | [README](./python/kitap_takip/README.md) | ✅ |
+| Proje | Kategori | Teknolojiler | Açıklama | Durum |
+| :--- | :--- | :--- | :--- | :---: |
+| **[Ephe Portfolio](./web/ephe-portfolio)** | Web Sitesi | HTML, CSS, JavaScript | Kişisel marka, sosyal bağlantılar, GitHub proje vitrini ve interaktif bölümler içeren portfolyo sitesi. | Hazır |
+| **[QR Menü Sistemi](./web/qr-menu-sistemi)** | Web Uygulaması | Next.js, TypeScript, SQLite | Kafe ve restoranlar için QR kod ile açılan, admin panelli ve çok dilli dijital menü sistemi. | Hazır |
+| **[Not Defteri](./flutter/not-defteri)** | Mobil Uygulama | Flutter, Dart, BLoC | Not alma, düzenleme ve yerel veri yönetimi odaklı mobil uygulama. | Hazır |
+| **[Bankamatik](./python/bankamatik)** | Python Script | Python, SQL | Temel bankamatik işlemlerini ve veritabanı kullanımını gösteren terminal uygulaması. | Hazır |
+| **[Kitap Takip](./python/kitap_takip)** | Python Script | Python, SQL | Kitap okuma listesini ve kayıtlarını yönetmek için geliştirilmiş terminal tabanlı takip uygulaması. | Hazır |
 
-## 📁 Klasör Yapısı
+## Klasör Yapısı
 
 ```text
 projects/
@@ -21,9 +21,9 @@ projects/
 └── python/   # Otomasyon ve scriptler
 ```
 
-## 🤝 Katkıda Bulunma
+## Kullanım
 
-Projelerle ilgili geri bildirim vermek veya katkıda bulunmak için [CONTRIBUTING.md](./CONTRIBUTING.md) dosyasını inceleyebilirsiniz.
+Her projenin kendi README dosyasında kurulum, çalıştırma ve ekran görüntüsü bilgileri yer alır. İncelemek istediğiniz projenin klasörüne girerek ilgili dokümantasyonu takip edebilirsiniz.
 
 ---
 
