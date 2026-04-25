@@ -1,6 +1,8 @@
 # Ephe Portfolio
 
-Efe (`ephe`) için hazırlanmış modern, responsive ve interaktif kişisel portfolyo sitesi. Profil bilgilerini, teknoloji yığınını, GitHub projelerini, sosyal bağlantıları ve küçük bir okçuluk etkileşimini tek sayfalık sade bir arayüzde sunar.
+Ephe Portfolio; geliştiriciler, içerik üreticileri ve kişisel markasını web üzerinde sunmak isteyen herkes için hazırlanmış modern, responsive ve interaktif bir portfolyo sitesi şablonudur.
+
+Proje statik HTML, CSS ve JavaScript ile geliştirildiği için kolayca düzenlenebilir, GitHub Pages üzerinde yayınlanabilir ve kişisel bilgilere göre özelleştirilebilir. Varsayılan içerik örnek bir portfolyo düzeni sunar; isim, açıklama, sosyal bağlantılar, teknoloji listesi ve GitHub kullanıcı adı değiştirilerek farklı kişiler tarafından kullanılabilir.
 
 ## Önizleme
 
@@ -22,6 +24,7 @@ Efe (`ephe`) için hazırlanmış modern, responsive ve interaktif kişisel port
 - Devicon destekli teknoloji kartları
 - Canvas ile hazırlanmış interaktif okçuluk bölümü
 - GitHub, YouTube, Instagram ve e-posta iletişim kartları
+- Kolay düzenlenebilir statik dosya yapısı
 
 ## Teknolojiler
 
@@ -45,6 +48,17 @@ Ardından tarayıcıda açın:
 http://localhost:5173
 ```
 
+## Kişiselleştirme
+
+Projeyi kendi portfolyonuz için kullanmak istiyorsanız aşağıdaki alanları güncelleyin:
+
+| Dosya | Güncellenecek Alan |
+| --- | --- |
+| `index.html` | Sayfa başlığı, meta açıklamalar, hero metni, hakkımda alanı, teknoloji listesi ve iletişim bağlantıları |
+| `script.js` | `GITHUB_USERNAME` değeri ve proje kartı davranışı |
+| `style.css` | Renkler, boşluklar, kart stilleri ve responsive görünüm |
+| `assets/screenshots/` | README'de görünen ekran görüntüleri |
+
 ## Proje Yapısı
 
 ```text
@@ -54,6 +68,7 @@ http://localhost:5173
 ├── style.css
 ├── assets/
 │   └── screenshots/
+├── LICENSE
 └── README.md
 ```
 
@@ -63,4 +78,4 @@ Proje GitHub Pages üzerinde yayınlanmaya uygundur. Monorepo içinde bulunduğu
 
 ## Lisans
 
-Henüz lisans eklenmemiştir. Yeniden kullanım, dağıtım veya katkı kabul edilmeden önce uygun bir lisans eklenmelidir.
+Bu proje MIT lisansı ile sunulmaktadır. Detaylar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.

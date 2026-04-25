@@ -6,7 +6,7 @@ Bu depo, geliştirdiğim web, mobil ve Python projelerini tek yerde topladığı
 
 | Proje | Kategori | Teknolojiler | Açıklama | Durum |
 | :--- | :--- | :--- | :--- | :---: |
-| **[Ephe Portfolio](./web/ephe-portfolio)** | Web Sitesi | HTML, CSS, JavaScript | Kişisel marka, sosyal bağlantılar, GitHub proje vitrini ve interaktif bölümler içeren portfolyo sitesi. | Hazır |
+| **[Ephe Portfolio](./web/ephe-portfolio)** | Web Sitesi | HTML, CSS, JavaScript | Kendi kişisel portfolyosunu yayınlamak isteyen herkesin uyarlayabileceği, sosyal bağlantılar ve GitHub proje vitrini içeren statik site. | Hazır |
 | **[QR Menü Sistemi](./web/qr-menu-sistemi)** | Web Uygulaması | Next.js, TypeScript, SQLite | Kafe ve restoranlar için QR kod ile açılan, admin panelli ve çok dilli dijital menü sistemi. | Hazır |
 | **[Not Defteri](./flutter/not-defteri)** | Mobil Uygulama | Flutter, Dart, BLoC | Not alma, düzenleme ve yerel veri yönetimi odaklı mobil uygulama. | Hazır |
 | **[Bankamatik](./python/bankamatik)** | Python Script | Python, SQL | Temel bankamatik işlemlerini ve veritabanı kullanımını gösteren terminal uygulaması. | Hazır |
@@ -24,6 +24,10 @@ projects/
 ## Kullanım
 
 Her projenin kendi README dosyasında kurulum, çalıştırma ve ekran görüntüsü bilgileri yer alır. İncelemek istediğiniz projenin klasörüne girerek ilgili dokümantasyonu takip edebilirsiniz.
+
+## Lisans
+
+Bu depodaki projeler MIT lisansı ile paylaşılır. Proje bazında ek lisans dosyası varsa ilgili klasörde ayrıca belirtilir.
 
 ---
 
