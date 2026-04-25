@@ -1,1 +1,8 @@
-# Portfolyo Projeleri\n\nBu depo, geliştirdiğim çeşitli projeleri kategorize edilmiş bir şekilde içermektedir.\n\n## Klasör Yapısı\n\n- **web/**: Web tabanlı uygulamalar (Next.js, React, vb.)\n- **python/**: Python scriptleri ve uygulamaları\n
+# Portfolyo Projeleri
+
+Bu depo, geliştirdiğim çeşitli projeleri kategorize edilmiş bir şekilde içermektedir.
+
+## Klasör Yapısı
+
+- **web/**: Web tabanlı uygulamalar (Next.js, React, vb.)
+- **python/**: Python scriptleri ve uygulamaları
