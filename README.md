@@ -1,4 +1,4 @@
-# QR Cafe Menu
+# QR Menü Sistemi
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
