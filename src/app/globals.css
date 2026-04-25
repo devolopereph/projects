@@ -1,0 +1,458 @@
+@import "tailwindcss";
+
+:root {
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+  --popover: 255 255 255;
+  --popover-foreground: 15 23 42;
+  --primary: 59 130 246;
+  --primary-foreground: 255 255 255;
+  --secondary: 241 245 249;
+  --secondary-foreground: 15 23 42;
+  --muted: 241 245 249;
+  --muted-foreground: 100 116 139;
+  --accent: 241 245 249;
+  --accent-foreground: 15 23 42;
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --border: 226 232 240;
+  --input: 226 232 240;
+  --ring: 59 130 246;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 2 6 23;
+  --foreground: 248 250 252;
+  --card: 2 6 23;
+  --card-foreground: 248 250 252;
+  --popover: 2 6 23;
+  --popover-foreground: 248 250 252;
+  --primary: 59 130 246;
+  --primary-foreground: 255 255 255;
+  --secondary: 30 41 59;
+  --secondary-foreground: 248 250 252;
+  --muted: 30 41 59;
+  --muted-foreground: 148 163 184;
+  --accent: 30 41 59;
+  --accent-foreground: 248 250 252;
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --border: 30 41 59;
+  --input: 30 41 59;
+  --ring: 59 130 246;
+}
+
+/* Tailwind CSS theme directive - required for proper color mapping */
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme inline {
+  --color-background: rgb(var(--background));
+  --color-foreground: rgb(var(--foreground));
+  --color-card: rgb(var(--card));
+  --color-card-foreground: rgb(var(--card-foreground));
+  --color-popover: rgb(var(--popover));
+  --color-popover-foreground: rgb(var(--popover-foreground));
+  --color-primary: rgb(var(--primary));
+  --color-primary-foreground: rgb(var(--primary-foreground));
+  --color-secondary: rgb(var(--secondary));
+  --color-secondary-foreground: rgb(var(--secondary-foreground));
+  --color-muted: rgb(var(--muted));
+  --color-muted-foreground: rgb(var(--muted-foreground));
+  --color-accent: rgb(var(--accent));
+  --color-accent-foreground: rgb(var(--accent-foreground));
+  --color-destructive: rgb(var(--destructive));
+  --color-destructive-foreground: rgb(var(--destructive-foreground));
+  --color-border: rgb(var(--border));
+  --color-input: rgb(var(--input));
+  --color-ring: rgb(var(--ring));
+  --font-sans: var(--font-inter);
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--muted-foreground));
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--foreground));
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+/* Focus styles */
+.focus-visible {
+  outline: 2px solid rgb(var(--ring));
+  outline-offset: 2px;
+}
+
+/* Animation classes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+/* RTL support for Arabic */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .rtl\:text-right {
+  text-align: right;
+}
+
+[dir="rtl"] .rtl\:text-left {
+  text-align: left;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Product card animations and effects */
+.card-anim {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.card-anim:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.card-anim:hover.product-card-light {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.06);
+}
+
+.card-anim:hover.product-card-dark {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Product card theme-based styling */
+.product-card-light {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  min-height: 300px; /* Consistent height */
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product-card-light:hover {
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+  border-color: #cbd5e1;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.product-card-dark {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  border: 1px solid #334155;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  min-height: 300px; /* Consistent height */
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product-card-dark:hover {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  border-color: #475569;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Product image container */
+.product-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.product-image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+  z-index: 1;
+}
+
+.card-anim:hover .product-image-container::before {
+  transform: translateX(100%);
+}
+
+/* Light theme product content */
+.product-content-light {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 0.5rem 0.5rem;
+  border-top: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.product-content-light .product-title {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.product-content-light .product-description {
+  color: #64748b;
+}
+
+.product-content-light .product-price {
+  color: #3b82f6;
+  font-weight: 700;
+}
+
+/* Dark theme product content */
+.product-content-dark {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 0.5rem 0.5rem;
+  border-top: 1px solid rgba(51, 65, 85, 0.5);
+}
+
+.product-content-dark .product-title {
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+.product-content-dark .product-description {
+  color: #94a3b8;
+}
+
+.product-content-dark .product-price {
+  color: #60a5fa;
+  font-weight: 700;
+}
+
+/* Discount badge */
+.discount-badge {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+}
+
+.dark .discount-badge {
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.5);
+}
+
+/* Shimmer effect for loading */
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.dark .shimmer {
+  background: linear-gradient(90deg, #374151 25%, #4b5563 50%, #374151 75%);
+  background-size: 200% 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Image Protection - Prevent right-click, drag, and selection */
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+}
+
+/* Prevent context menu on images */
+img::-webkit-context-menu {
+  display: none;
+}
+
+/* Disable image selection and dragging */
+.product-image-container img,
+.product-image-container > div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  pointer-events: none;
+}
+
+/* Disable text selection on product cards to prevent accidental selections */
+.card-anim {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Re-enable text selection for product titles and descriptions */
+.product-title,
+.product-description,
+.product-price {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  pointer-events: auto;
+}
+
+/* Disable right-click context menu on the entire page */
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Re-enable text selection for specific elements */
+input, textarea, [contenteditable="true"], .selectable-text {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Mobile responsive fixes */
+@media (max-width: 768px) {
+  .product-card-light,
+  .product-card-dark {
+    min-height: 280px;
+    border-radius: 0.5rem !important;
+    overflow: hidden !important;
+    position: relative;
+  }
+  
+  .product-content-light,
+  .product-content-dark {
+    min-height: 110px;
+    border-radius: 0 0 0.5rem 0.5rem !important;
+    margin: 0;
+    position: relative;
+    backdrop-filter: none !important;
+  }
+  
+  /* Ensure proper border radius on mobile */
+  .product-image-container {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+    overflow: hidden !important;
+    position: relative;
+  }
+  
+  /* Better spacing on mobile */
+  .card-anim:hover {
+    transform: translateY(-4px) scale(1.01);
+  }
+  
+  /* Fix any potential background bleeding - use solid backgrounds on mobile */
+  .product-card-light .product-content-light {
+    background: #ffffff !important;
+    border-top: 1px solid #e2e8f0 !important;
+    border-radius: 0 0 0.5rem 0.5rem !important;
+    backdrop-filter: none !important;
+  }
+  
+  .product-card-dark .product-content-dark {
+    background: #0f172a !important;
+    border-top: 1px solid #334155 !important;
+    border-radius: 0 0 0.5rem 0.5rem !important;
+    backdrop-filter: none !important;
+  }
+  
+  /* Ensure no background bleeding from parent containers */
+  .product-card-light {
+    background: #ffffff !important;
+  }
+  
+  .product-card-dark {
+    background: #0f172a !important;
+  }
+  
+  /* Fix any potential gradient bleeding */
+  .product-card-light:hover {
+    background: #ffffff !important;
+  }
+  
+  .product-card-dark:hover {
+    background: #0f172a !important;
+  }
+}
