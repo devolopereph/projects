@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ephe Portfolio — Developer & Creator</title>
+  <meta name="description" content="Ephe Portfolio: Efe'nin mobil uygulama geliştirme, içerik üretimi, YouTube ve açık kaynak projeleri için kişisel portföy sitesi." />
+  <meta name="keywords" content="Efe, ephe, devolopereph, Flutter, Dart, mobil geliştirici, YouTuber, portfolio" />
+  <meta name="author" content="Efe" />
+  <meta property="og:title" content="Ephe Portfolio — Developer & Creator" />
+  <meta property="og:description" content="Mobil uygulama geliştirici, içerik üretici ve YouTuber için modern kişisel portföy sitesi." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#050505" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader">
+    <div style="font-size:1.8rem;font-weight:800;letter-spacing:-0.03em;">ephe<span style="color:#c81830;">.</span></div>
+    <div class="loader-bar"></div>
+    <div class="loader-text">yükleniyor...</div>
+  </div>
+
+  <!-- CURSOR GLOW -->
+  <div class="cursor-glow"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">
+      <span class="dot"></span>
+      ephe
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">Hakkımda</a></li>
+      <li><a href="#tech">Teknoloji</a></li>
+      <li><a href="#projects">Projeler</a></li>
+      <li><a href="#vision">Vizyon</a></li>
+      <li><a href="#contact">İletişim</a></li>
+    </ul>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menüyü aç">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="status"></span>
+        İstanbul, Türkiye 🇹🇷
+      </div>
+      <h1 class="hero-title">
+        <span class="highlight">Bir şeyler</span><br/>üretmek<span style="color:#c81830;">.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Mobil uygulama geliştirici, içerik üretici & YouTuber.
+        Flutter ile hayalleri koda, AI ile fikirleri gerçeğe dönüştürüyorum.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">Projelerimi Gör ↓</a>
+        <a href="https://youtube.com/@epheai" target="_blank" rel="noopener" class="btn-secondary">YouTube'u İzle ▶</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-header reveal">
+      <div class="section-label">01 — Hakkımda</div>
+      <h2 class="section-title">Merhaba, ben Efe 👋</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          İstanbul'da yaşayan bir <strong>mobil uygulama geliştirici</strong> ve
+          <strong>içerik üretici</strong>yim. Flutter & Dart ile mobil uygulamalar
+          geliştirip Google Play'de yayınlıyorum.
+        </p>
+        <p>
+          YouTube kanalım <strong>epheai</strong>'de AI destekli uygulama ve web
+          geliştirme sürecini baştan sona gösteriyorum. Amacım öğrendiğimi öğretmek
+          ve birlikte büyümek.
+        </p>
+        <p>
+          Okçuluk yapıyorum 🏹, fitness ile uğraşıyorum, klasik kitaplar okumayı
+          seviyorum ve kahve olmadan kod yazmıyorum ☕.
+        </p>
+        <div class="motto">
+          "Bir şeyler üretmek. 🔧"
+        </div>
+      </div>
+      <div class="about-cards reveal">
+        <div class="about-card">
+          <div class="icon">📱</div>
+          <h4>Geliştiriyorum</h4>
+          <p>Flutter ile mobil uygulamalar — Google Play'de yayınlıyorum</p>
+        </div>
+        <div class="about-card">
+          <div class="icon">🎬</div>
+          <h4>Video Çekiyorum</h4>
+          <p>AI destekli geliştirme sürecini baştan sona gösteriyorum</p>
+        </div>
+        <div class="about-card">
+          <div class="icon">🌱</div>
+          <h4>Öğreniyorum</h4>
+          <p>iOS, backend, veritabanı, otomasyon & AI</p>
+        </div>
+        <div class="about-card">
+          <div class="icon">🎮</div>
+          <h4>Keşfediyorum</h4>
+          <p>Oyun geliştirme dünyasına adım atmak istiyorum</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="section" id="tech">
+    <div class="section-header reveal">
+      <div class="section-label">02 — Teknoloji & Araçlar</div>
+      <h2 class="section-title">Kullandığım Araçlar</h2>
+    </div>
+    <div class="tech-grid reveal">
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="40" alt="Flutter" /></div>
+        <span>Flutter</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="40" alt="Dart" /></div>
+        <span>Dart</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" alt="Next.js" /></div>
+        <span>Next.js</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" alt="TypeScript" /></div>
+        <span>TypeScript</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" alt="JavaScript" /></div>
+        <span>JavaScript</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python" /></div>
+        <span>Python</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" alt="Firebase" /></div>
+        <span>Firebase</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" alt="SQLite" /></div>
+        <span>SQLite</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" alt="Git" /></div>
+        <span>Git</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" alt="Linux" /></div>
+        <span>Linux</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" alt="Figma" /></div>
+        <span>Figma</span>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" alt="VS Code" /></div>
+        <span>VS Code</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS VITRINE -->
+  <section class="section" id="projects">
+    <div class="section-header reveal">
+      <div class="section-label">03 — Projeler</div>
+      <h2 class="section-title">Vitrin</h2>
+    </div>
+    <div class="projects-container" id="projects-container">
+      <div style="grid-column:1/-1;text-align:center;padding:3rem;">
+        <div class="loader-bar" style="margin:0 auto;"></div>
+        <p style="color:var(--text-muted);margin-top:1rem;font-size:0.85rem;">GitHub'dan projeler çekiliyor...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION & INTERACTIVE -->
+  <section class="section" id="vision">
+    <div class="section-header reveal">
+      <div class="section-label">04 — Vizyon</div>
+      <h2 class="section-title">Üretme Vizyonum</h2>
+    </div>
+    <div class="vision-grid reveal">
+      <div class="vision-card">
+        <span class="vision-icon">💡</span>
+        <h3>Fikir → Gerçeklik</h3>
+        <p>En iyi fikirler sıkılınca doğar. Bir kahve, bir ekran ve sınırsız hayal gücü. Fikirlerimi koda dönüştürmeyi seviyorum.</p>
+      </div>
+      <div class="vision-card">
+        <span class="vision-icon">🔄</span>
+        <h3>Öğren → Öğret</h3>
+        <p>Öğrendiğimi başkalarıyla paylaşmak benim için en büyük motivasyon. YouTube kanalım bu vizyonun eseri.</p>
+      </div>
+      <div class="vision-card">
+        <span class="vision-icon">🎯</span>
+        <h3>Hedef → İsabet</h3>
+        <p>Okçuluktaki gibi: odaklan, nefes al, bırak. Her proje bir ok, her publish bir isabet.</p>
+      </div>
+    </div>
+
+    <!-- ARCHERY INTERACTIVE -->
+    <div class="archery-section reveal">
+      <div class="archery-interactive" id="archery-area">
+        <canvas id="archery-canvas"></canvas>
+        <div class="archery-text">
+          <h3>🏹 Hedefi Vur</h3>
+          <p>Tıkla ve ok at — her proje bir isabet</p>
+          <div class="hit-counter" id="hit-counter">0</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-header reveal">
+      <div class="section-label">05 — İletişim</div>
+      <h2 class="section-title">Bana Ulaş</h2>
+    </div>
+    <div class="contact-grid reveal">
+      <a href="https://github.com/devolopereph" target="_blank" rel="noopener" class="contact-card" id="contact-github">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </div>
+        <div class="contact-info">
+          <h4>GitHub</h4>
+          <p>@devolopereph</p>
+        </div>
+      </a>
+      <a href="https://youtube.com/@epheai" target="_blank" rel="noopener" class="contact-card" id="contact-youtube">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </div>
+        <div class="contact-info">
+          <h4>YouTube</h4>
+          <p>@epheai</p>
+        </div>
+      </a>
+      <a href="https://instagram.com/devolopereph" target="_blank" rel="noopener" class="contact-card" id="contact-insta1">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </div>
+        <div class="contact-info">
+          <h4>Instagram</h4>
+          <p>@devolopereph</p>
+        </div>
+      </a>
+      <a href="https://instagram.com/ephe.ai" target="_blank" rel="noopener" class="contact-card" id="contact-insta2">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </div>
+        <div class="contact-info">
+          <h4>Instagram (AI)</h4>
+          <p>@ephe.ai</p>
+        </div>
+      </a>
+      <a href="mailto:devolopereph@gmail.com" class="contact-card" id="contact-email">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </div>
+        <div class="contact-info">
+          <h4>E-posta</h4>
+          <p>devolopereph@gmail.com</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Efe — Tüm hakları saklıdır. <span class="heart">♥</span> ile üretildi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

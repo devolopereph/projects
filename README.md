@@ -6,6 +6,7 @@ Bu depo, modern teknolojilerle geliştirdiğim yazılım çözümlerini içeren 
 
 | Proje | Kategori | Teknoloji Yığını | Dokümantasyon | Durum |
 | :--- | :--- | :--- | :---: | :---: |
+| **[Ephe Portfolio](./web/ephe-portfolio)** | Web Sitesi | HTML, CSS, JavaScript | [README](./web/ephe-portfolio/README.md) | ✅ |
 | **[QR Menü Sistemi](./web/qr-menu-sistemi)** | Web Uygulaması | Next.js, TS, SQLite | [README](./web/qr-menu-sistemi/README.md) | ✅ |
 | **[Not Defteri](./flutter/not-defteri)** | Mobil Uygulama | Flutter, Dart, BLoC | [README](./flutter/not-defteri/README.md) | ✅ |
 | **[Bankamatik](./python/bankamatik)** | Python Script | Python, SQL | [README](./python/bankamatik/README.md) | ✅ |
