@@ -1,43 +1,29 @@
 # 🚀 Yazılım Portfolyosu
 
-Bu depo, geliştirdiğim çeşitli dillerdeki projelerin ve araçların toplandığı merkezi koleksiyondur.
+Bu depo, modern teknolojilerle geliştirdiğim yazılım çözümlerini içeren merkezi Monorepo'dur.
+
+## 🛠️ Proje Vitrini
+
+| Proje | Kategori | Teknoloji Yığını | Dokümantasyon | Durum |
+| :--- | :--- | :--- | :---: | :---: |
+| **[QR Menü Sistemi](./web/qr-menu-sistemi)** | Web Uygulaması | Next.js, TS, SQLite | [README](./web/qr-menu-sistemi/README.md) | ✅ |
+| **[Not Defteri](./flutter/not-defteri)** | Mobil Uygulama | Flutter, Dart, BLoC | [README](./flutter/not-defteri/README.md) | ✅ |
+| **[Bankamatik](./python/bankamatik)** | Python Script | Python, SQL | [README](./python/bankamatik/README.md) | ✅ |
+| **[Kitap Takip](./python/kitap_takip)** | Python Script | Python, SQL | [README](./python/kitap_takip/README.md) | ✅ |
+
+## 📁 Klasör Yapısı
+
+```text
+projects/
+├── web/      # Web tabanlı modern uygulamalar
+├── flutter/  # Mobil platform çözümleri
+└── python/   # Otomasyon ve scriptler
+```
+
+## 🤝 Katkıda Bulunma
+
+Projelerle ilgili geri bildirim vermek veya katkıda bulunmak için [CONTRIBUTING.md](./CONTRIBUTING.md) dosyasını inceleyebilirsiniz.
 
 ---
 
-## 🌐 Web Projeleri
-
-| Proje | Açıklama | Teknolojiler | Durum |
-| :--- | :--- | :--- | :---: |
-| [QR Menü Sistemi](./web/qr-menu-sistemi) | Kafe ve restoranlar için çok dilli dijital menü yönetimi. | ![Next.js](https://img.shields.io/badge/Next.js-black) ![TS](https://img.shields.io/badge/TypeScript-blue) ![SQLite](https://img.shields.io/badge/SQLite-003B57) | ✅ Tamamlandı |
-
-## 📱 Mobil Projeler
-
-| Proje | Açıklama | Teknolojiler | Durum |
-| :--- | :--- | :--- | :---: |
-| [Not Defteri](./flutter/not-defteri) | Modern ve çevrimdışı not alma uygulaması. | ![Flutter](https://img.shields.io/badge/Flutter-02569B) ![Dart](https://img.shields.io/badge/Dart-0175C2) ![BLoC](https://img.shields.io/badge/BLoC-blue) | ✅ Tamamlandı |
-
-## 🐍 Python Projeleri
-
-| Kategori | Proje/İçerik | Açıklama |
-| :--- | :--- | :--- |
-| 🏦 Finans | [Bankamatik Sistemi](./python/bankamatik) | Veritabanı destekli ATM simülasyonu. |
-| 📚 Yönetim | [Kitap Takip](./python/kitap_takip) | Kitap kayıt ve takip otomasyonu. |
-| 🎮 Oyun | Sayı Tahmin Oyunları | Gelişmiş ve basit sayı tahmin mekanizmaları. |
-| 🛠️ Araçlar | Algoritma Örnekleri | Asal sayı, tam bölen, yaş hesaplama vb. araçlar. |
-
----
-
-## 🛠️ Yetkinlikler
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
----
-
-> *Sürekli yeni projeler eklenmeye devam etmektedir.* 🚀
+<p align="center">devolopereph © 2026</p>
