@@ -1,0 +1,65 @@
+name: epheproject
+description: "Not Defteri - Modern not alma uygulaması"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_nav_bar: ^5.0.7
+  
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  
+  # Database
+  sqflite: ^2.4.2
+  path_provider: ^2.1.5
+  
+  # Rich Text Editor
+  appflowy_editor: ^6.2.0
+  
+  # Image Picker
+  image_picker: ^1.2.1
+  
+  # Storage
+  shared_preferences: ^2.5.4
+  
+  # Utilities
+  uuid: ^4.5.2
+  path: ^1.9.1
+  package_info_plus: ^8.3.0
+  flutter_gen: ^5.12.0
+  
+  # Backup & Restore
+  share_plus: ^10.1.4
+  archive: ^4.0.4
+  file_picker: 10.3.8
+  introduction_screen: ^4.0.0
+  emoji_picker_flutter: ^4.4.0
+  pinput: ^6.0.1
+  url_launcher: ^6.3.1
+  
+  # Notifications
+  flutter_local_notifications: ^20.0.0
+  timezone: ^0.10.1
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

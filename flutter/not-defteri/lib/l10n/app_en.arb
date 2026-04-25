@@ -1,0 +1,919 @@
+{
+  "@@locale": "en",
+  "appTitle": "Not Defteri",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "notes": "Notes",
+  "@notes": {
+    "description": "Notes tab title"
+  },
+  "folders": "Folders",
+  "@folders": {
+    "description": "Folders tab title"
+  },
+  "graph": "Graph",
+  "@graph": {
+    "description": "Graph tab title"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings tab title"
+  },
+  "myNotes": "My Notes",
+  "@myNotes": {
+    "description": "Notes list page title"
+  },
+  "searchNotes": "Search notes...",
+  "@searchNotes": {
+    "description": "Search notes placeholder"
+  },
+  "searchFolders": "Search folders...",
+  "@searchFolders": {
+    "description": "Search folders placeholder"
+  },
+  "searchInNote": "Search in note...",
+  "@searchInNote": {
+    "description": "Search in note placeholder"
+  },
+  "noResults": "No results found",
+  "@noResults": {
+    "description": "No search results message"
+  },
+  "noResultsFor": "No results found for \"{query}\"",
+  "@noResultsFor": {
+    "description": "No search results message with query",
+    "placeholders": {
+      "query": {
+        "type": "String",
+        "example": "test"
+      }
+    }
+  },
+  "noNotesYet": "No notes yet",
+  "@noNotesYet": {
+    "description": "Empty notes list message"
+  },
+  "tapToCreate": "Tap + button to create your first note",
+  "@tapToCreate": {
+    "description": "Empty notes list hint"
+  },
+  "noFoldersYet": "No folders yet",
+  "@noFoldersYet": {
+    "description": "Empty folders list message"
+  },
+  "tapToCreateFolder": "Tap + button to create your first folder",
+  "@tapToCreateFolder": {
+    "description": "Empty folders list hint"
+  },
+  "untitledNote": "Untitled note",
+  "@untitledNote": {
+    "description": "Default note title"
+  },
+  "untitledFolder": "Untitled folder",
+  "@untitledFolder": {
+    "description": "Default folder name"
+  },
+  "title": "Title",
+  "@title": {
+    "description": "Title field label"
+  },
+  "done": "Done",
+  "@done": {
+    "description": "Done button text"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "addPhoto": "Add Photo",
+  "@addPhoto": {
+    "description": "Add photo tooltip"
+  },
+  "searchInNoteTooltip": "Search in Note",
+  "@searchInNoteTooltip": {
+    "description": "Search in note tooltip"
+  },
+  "closeSearch": "Close Search",
+  "@closeSearch": {
+    "description": "Close search tooltip"
+  },
+  "pin": "Pin",
+  "@pin": {
+    "description": "Pin note action"
+  },
+  "unpin": "Unpin",
+  "@unpin": {
+    "description": "Unpin note action"
+  },
+  "moveToFolder": "Move to Folder",
+  "@moveToFolder": {
+    "description": "Move to folder action"
+  },
+  "removeFromFolder": "Remove from Folder",
+  "@removeFromFolder": {
+    "description": "Remove from folder action"
+  },
+  "selectFolder": "Select Folder",
+  "@selectFolder": {
+    "description": "Select folder dialog title"
+  },
+  "inFolder": "In folder",
+  "@inFolder": {
+    "description": "In folder badge"
+  },
+  "deleteNote": "Delete Note",
+  "@deleteNote": {
+    "description": "Delete note dialog title"
+  },
+  "deleteNoteConfirm": "Are you sure you want to delete \"{title}\"?\n\nThe note will be moved to trash.",
+  "@deleteNoteConfirm": {
+    "description": "Delete note confirmation message",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "My Note"
+      }
+    }
+  },
+  "deleteNoteConfirmUntitled": "Are you sure you want to delete this note?\n\nThe note will be moved to trash.",
+  "@deleteNoteConfirmUntitled": {
+    "description": "Delete untitled note confirmation message"
+  },
+  "appearance": "Appearance",
+  "@appearance": {
+    "description": "Appearance settings section"
+  },
+  "darkTheme": "Dark Theme",
+  "@darkTheme": {
+    "description": "Dark theme setting title"
+  },
+  "useDarkTheme": "Use dark theme",
+  "@useDarkTheme": {
+    "description": "Dark theme setting subtitle"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting title"
+  },
+  "changeLanguage": "Change app language",
+  "@changeLanguage": {
+    "description": "Language setting subtitle"
+  },
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Language selection page title"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language name"
+  },
+  "turkish": "Turkish",
+  "@turkish": {
+    "description": "Turkish language name"
+  },
+  "dataManagement": "Data Management",
+  "@dataManagement": {
+    "description": "Data management settings section"
+  },
+  "trash": "Trash",
+  "@trash": {
+    "description": "Trash setting title"
+  },
+  "viewDeletedNotes": "View deleted notes",
+  "@viewDeletedNotes": {
+    "description": "Trash setting subtitle"
+  },
+  "other": "Other",
+  "@other": {
+    "description": "Other settings section"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About setting title"
+  },
+  "appInfo": "App information",
+  "@appInfo": {
+    "description": "About setting subtitle"
+  },
+  "version": "Version {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "versionWithBuild": "Version {version} ({buildNumber})",
+  "@versionWithBuild": {
+    "description": "Version text with build number",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0"
+      },
+      "buildNumber": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "loadingVersion": "Loading version...",
+  "@loadingVersion": {
+    "description": "Loading version text"
+  },
+  "richTextNotesApp": "Rich text notes application",
+  "@richTextNotesApp": {
+    "description": "App description in about page"
+  },
+  "trashEmpty": "Trash is empty",
+  "@trashEmpty": {
+    "description": "Empty trash message"
+  },
+  "deletedNotesAppear": "Deleted notes will appear here",
+  "@deletedNotesAppear": {
+    "description": "Empty trash hint"
+  },
+  "emptyTrash": "Empty Trash",
+  "@emptyTrash": {
+    "description": "Empty trash button"
+  },
+  "emptyTrashConfirm": "Are you sure you want to permanently delete all notes in the trash?\n\nThis action cannot be undone.",
+  "@emptyTrashConfirm": {
+    "description": "Empty trash confirmation message"
+  },
+  "restore": "Restore",
+  "@restore": {
+    "description": "Restore note action"
+  },
+  "noteRestored": "Note restored",
+  "@noteRestored": {
+    "description": "Note restored snackbar message"
+  },
+  "deletePermanently": "Delete Permanently",
+  "@deletePermanently": {
+    "description": "Delete permanently action"
+  },
+  "deletePermanentlyConfirm": "Are you sure you want to permanently delete \"{title}\"?\n\nThis action cannot be undone.",
+  "@deletePermanentlyConfirm": {
+    "description": "Delete permanently confirmation message",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "My Note"
+      }
+    }
+  },
+  "deletePermanentlyConfirmUntitled": "Are you sure you want to permanently delete this note?\n\nThis action cannot be undone.",
+  "@deletePermanentlyConfirmUntitled": {
+    "description": "Delete permanently untitled note confirmation message"
+  },
+  "justNow": "Just now",
+  "@justNow": {
+    "description": "Just now time"
+  },
+  "minutesAgo": "{minutes}m ago",
+  "@minutesAgo": {
+    "description": "Minutes ago time",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "hoursAgo": "{hours}h ago",
+  "@hoursAgo": {
+    "description": "Hours ago time",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "daysAgo": "{days} days ago",
+  "@daysAgo": {
+    "description": "Days ago time",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "deletedJustNow": "Deleted just now",
+  "@deletedJustNow": {
+    "description": "Deleted just now time"
+  },
+  "deletedMinutesAgo": "Deleted {minutes} minutes ago",
+  "@deletedMinutesAgo": {
+    "description": "Deleted minutes ago time",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "deletedHoursAgo": "Deleted {hours} hours ago",
+  "@deletedHoursAgo": {
+    "description": "Deleted hours ago time",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "deletedDaysAgo": "Deleted {days} days ago",
+  "@deletedDaysAgo": {
+    "description": "Deleted days ago time",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "deletedOnDate": "Deleted on {date}",
+  "@deletedOnDate": {
+    "description": "Deleted on date",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "01.01.2024"
+      }
+    }
+  },
+  "unknownDate": "Unknown date",
+  "@unknownDate": {
+    "description": "Unknown date text"
+  },
+  "errorOccurred": "An error occurred",
+  "@errorOccurred": {
+    "description": "Error occurred message"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Try again button"
+  },
+  "listView": "List View",
+  "@listView": {
+    "description": "List view tooltip"
+  },
+  "gridView": "Grid View",
+  "@gridView": {
+    "description": "Grid view tooltip"
+  },
+  "graphView": "Graph View",
+  "@graphView": {
+    "description": "Graph view page title"
+  },
+  "familyTreeView": "Family Tree View",
+  "@familyTreeView": {
+    "description": "Family tree view page title"
+  },
+  "addNoteToUseFamilyTree": "Add notes to use family tree view",
+  "@addNoteToUseFamilyTree": {
+    "description": "Empty family tree view hint"
+  },
+  "newest": "Newest",
+  "@newest": {
+    "description": "Newest note label"
+  },
+  "oldest": "Oldest",
+  "@oldest": {
+    "description": "Oldest note label"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset button tooltip"
+  },
+  "addNoteToUseGraph": "Add notes to use graph view",
+  "@addNoteToUseGraph": {
+    "description": "Empty graph view hint"
+  },
+  "emptyNote": "Empty note",
+  "@emptyNote": {
+    "description": "Empty note label in graph"
+  },
+  "newFolder": "New Folder",
+  "@newFolder": {
+    "description": "New folder page title"
+  },
+  "editFolder": "Edit Folder",
+  "@editFolder": {
+    "description": "Edit folder page title"
+  },
+  "folderName": "Folder Name",
+  "@folderName": {
+    "description": "Folder name field label"
+  },
+  "enterFolderName": "Enter folder name",
+  "@enterFolderName": {
+    "description": "Folder name field hint"
+  },
+  "pleaseEnterFolderName": "Please enter folder name",
+  "@pleaseEnterFolderName": {
+    "description": "Folder name validation error"
+  },
+  "selectColor": "Select Color",
+  "@selectColor": {
+    "description": "Color selection label"
+  },
+  "deleteFolder": "Delete Folder",
+  "@deleteFolder": {
+    "description": "Delete folder dialog title"
+  },
+  "deleteFolderConfirm": "Are you sure you want to delete \"{name}\"?\n\nNotes in the folder will not be deleted, only the folder will be removed.",
+  "@deleteFolderConfirm": {
+    "description": "Delete folder confirmation message",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "My Folder"
+      }
+    }
+  },
+  "deleteFolderConfirmUntitled": "Are you sure you want to delete this folder?\n\nNotes in the folder will not be deleted, only the folder will be removed.",
+  "@deleteFolderConfirmUntitled": {
+    "description": "Delete untitled folder confirmation message"
+  },
+  "noteCount": "{count} notes",
+  "@noteCount": {
+    "description": "Note count in folder",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "noNotesInFolder": "No notes in this folder",
+  "@noNotesInFolder": {
+    "description": "Empty folder notes message"
+  },
+  "longPressToAdd": "Long press on a note card to add notes to this folder",
+  "@longPressToAdd": {
+    "description": "Empty folder notes hint"
+  },
+  "noFoldersYetCreateInSettings": "No folders yet",
+  "@noFoldersYetCreateInSettings": {
+    "description": "No folders message in folder selection"
+  },
+  "createFolderInSettings": "You can create folders from the settings tab",
+  "@createFolderInSettings": {
+    "description": "Create folder hint in folder selection"
+  },
+  "imageError": "Error adding image: {error}",
+  "@imageError": {
+    "description": "Image error message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File not found"
+      }
+    }
+  },
+  "backup": "Backup",
+  "@backup": {
+    "description": "Backup page title"
+  },
+  "backupAndRestore": "Backup & Restore",
+  "@backupAndRestore": {
+    "description": "Backup setting title"
+  },
+  "backupAndRestoreDescription": "Backup or restore your data",
+  "@backupAndRestoreDescription": {
+    "description": "Backup setting subtitle"
+  },
+  "backupTitle": "Backup & Restore",
+  "@backupTitle": {
+    "description": "Backup page main title"
+  },
+  "backupDescription": "Backup all your notes, folders, and settings to a ZIP file or restore from a previous backup.",
+  "@backupDescription": {
+    "description": "Backup page description"
+  },
+  "createBackup": "Create Backup",
+  "@createBackup": {
+    "description": "Create backup button"
+  },
+  "createBackupDescription": "Export all data as a ZIP file",
+  "@createBackupDescription": {
+    "description": "Create backup description"
+  },
+  "restoreBackup": "Restore Backup",
+  "@restoreBackup": {
+    "description": "Restore backup button"
+  },
+  "restoreBackupDescription": "Import data from a backup file",
+  "@restoreBackupDescription": {
+    "description": "Restore backup description"
+  },
+  "backupNote": "Your backup includes all notes, folders, and app settings. Store it in a safe place.",
+  "@backupNote": {
+    "description": "Backup page note"
+  },
+  "backupFileSubject": "Not Defteri Backup",
+  "@backupFileSubject": {
+    "description": "Backup file share subject"
+  },
+  "backupCreatedSuccess": "Backup created successfully!",
+  "@backupCreatedSuccess": {
+    "description": "Backup success message"
+  },
+  "backupCreatedError": "Backup error: {error}",
+  "@backupCreatedError": {
+    "description": "Backup error message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Unknown error"
+      }
+    }
+  },
+  "fileNotSelected": "No file selected",
+  "@fileNotSelected": {
+    "description": "File not selected message"
+  },
+  "restoreSuccess": "{notes} notes and {folders} folders restored",
+  "@restoreSuccess": {
+    "description": "Restore success message",
+    "placeholders": {
+      "notes": {
+        "type": "int",
+        "example": "10"
+      },
+      "folders": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "restoreError": "Restore error: {error}",
+  "@restoreError": {
+    "description": "Restore error message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Unknown error"
+      }
+    }
+  },
+  "restoreComplete": "Restore Complete",
+  "@restoreComplete": {
+    "description": "Restore complete dialog title"
+  },
+  "restartAppMessage": "Please restart the app to see all restored settings.",
+  "@restartAppMessage": {
+    "description": "Restart app message"
+  },
+  "tapToSelectEmoji": "Tap to select icon",
+  "@tapToSelectEmoji": {
+    "description": "Hint text for emoji selection"
+  },
+  "removeEmoji": "Remove Emoji",
+  "@removeEmoji": {
+    "description": "Remove emoji button text"
+  },
+  "searchEmoji": "Search emoji...",
+  "@searchEmoji": {
+    "description": "Emoji search placeholder"
+  },
+  "onboardingWelcomeTitle": "Welcome to Not Defteri",
+  "@onboardingWelcomeTitle": {
+    "description": "Onboarding welcome screen title"
+  },
+  "onboardingWelcomeBody": "The smartest way to keep your notes organized. A powerful and simple note-taking experience awaits you.",
+  "@onboardingWelcomeBody": {
+    "description": "Onboarding welcome screen body"
+  },
+  "onboardingOrganizeTitle": "Organize & Categorize",
+  "@onboardingOrganizeTitle": {
+    "description": "Onboarding organize screen title"
+  },
+  "onboardingOrganizeBody": "Organize your notes into folders. Personalize your folders with emoji icons.",
+  "@onboardingOrganizeBody": {
+    "description": "Onboarding organize screen body"
+  },
+  "onboardingRichTextTitle": "Rich Text Support",
+  "@onboardingRichTextTitle": {
+    "description": "Onboarding rich text screen title"
+  },
+  "onboardingRichTextBody": "Bold, italic, and more. Create professional-looking notes. Add photos and enrich your notes.",
+  "@onboardingRichTextBody": {
+    "description": "Onboarding rich text screen body"
+  },
+  "onboardingSecureTitle": "Secure & Local",
+  "@onboardingSecureTitle": {
+    "description": "Onboarding secure screen title"
+  },
+  "onboardingSecureBody": "All your data is securely stored on your device. Protect your data with backup and restore features.",
+  "@onboardingSecureBody": {
+    "description": "Onboarding secure screen body"
+  },
+  "getStarted": "Get Started",
+  "@getStarted": {
+    "description": "Get started button text"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next button text"
+  },
+  "skip": "Skip",
+  "@skip": {
+    "description": "Skip button text"
+  },
+  "archivedNotes": "Archived Notes",
+  "@archivedNotes": {
+    "description": "Archived notes page title"
+  },
+  "noArchivedNotes": "No archived notes",
+  "@noArchivedNotes": {
+    "description": "Empty archived notes message"
+  },
+  "noArchivedNotesDescription": "Notes you archive will appear here",
+  "@noArchivedNotesDescription": {
+    "description": "Empty archived notes hint"
+  },
+  "archive": "Archive",
+  "@archive": {
+    "description": "Archive action"
+  },
+  "unarchive": "Unarchive",
+  "@unarchive": {
+    "description": "Unarchive action"
+  },
+  "noteArchived": "Note archived",
+  "@noteArchived": {
+    "description": "Note archived snackbar message"
+  },
+  "noteUnarchived": "Note unarchived",
+  "@noteUnarchived": {
+    "description": "Note unarchived snackbar message"
+  },
+  "security": "Security",
+  "@security": {
+    "description": "Security settings title"
+  },
+  "securityDescription": "App lock settings",
+  "@securityDescription": {
+    "description": "Security settings subtitle"
+  },
+  "securityInfo": "App Security",
+  "@securityInfo": {
+    "description": "Security info card title"
+  },
+  "securityInfoDescription": "Protect your app with a PIN code. You will need to enter the PIN code every time you open the app.",
+  "@securityInfoDescription": {
+    "description": "Security info card description"
+  },
+  "pinSettings": "PIN Settings",
+  "@pinSettings": {
+    "description": "PIN settings section title"
+  },
+  "pinLock": "PIN Lock",
+  "@pinLock": {
+    "description": "PIN lock toggle title"
+  },
+  "pinLockDescription": "Require PIN to open app",
+  "@pinLockDescription": {
+    "description": "PIN lock toggle subtitle"
+  },
+  "createPin": "Create PIN",
+  "@createPin": {
+    "description": "Create PIN button title"
+  },
+  "createPinDescription": "Create a new 4-digit PIN",
+  "@createPinDescription": {
+    "description": "Create PIN button subtitle"
+  },
+  "changePin": "Change PIN",
+  "@changePin": {
+    "description": "Change PIN button title"
+  },
+  "changePinDescription": "Change your current PIN",
+  "@changePinDescription": {
+    "description": "Change PIN button subtitle"
+  },
+  "removePin": "Remove PIN",
+  "@removePin": {
+    "description": "Remove PIN button title"
+  },
+  "removePinDescription": "Remove PIN protection",
+  "@removePinDescription": {
+    "description": "Remove PIN button subtitle"
+  },
+  "enterPin": "Enter Your PIN",
+  "@enterPin": {
+    "description": "Lock screen title"
+  },
+  "enterPinDescription": "Enter your 4-digit PIN to access the app",
+  "@enterPinDescription": {
+    "description": "Lock screen subtitle"
+  },
+  "enterNewPin": "Enter your new 4-digit PIN",
+  "@enterNewPin": {
+    "description": "New PIN input hint"
+  },
+  "enterCurrentPin": "Enter your current PIN",
+  "@enterCurrentPin": {
+    "description": "Current PIN input hint"
+  },
+  "confirmPin": "Confirm PIN",
+  "@confirmPin": {
+    "description": "Confirm PIN dialog title"
+  },
+  "reenterPin": "Re-enter your PIN",
+  "@reenterPin": {
+    "description": "Confirm PIN dialog subtitle"
+  },
+  "newPin": "New PIN",
+  "@newPin": {
+    "description": "New PIN dialog title"
+  },
+  "wrongPin": "Wrong PIN",
+  "@wrongPin": {
+    "description": "Wrong PIN error message"
+  },
+  "pinCreated": "PIN created successfully",
+  "@pinCreated": {
+    "description": "PIN created success message"
+  },
+  "pinChanged": "PIN changed successfully",
+  "@pinChanged": {
+    "description": "PIN changed success message"
+  },
+  "pinRemoved": "PIN removed",
+  "@pinRemoved": {
+    "description": "PIN removed success message"
+  },
+  "pinMismatch": "PINs do not match",
+  "@pinMismatch": {
+    "description": "PIN mismatch error message"
+  },
+  "deleteFolderToTrash": "Move folder to trash",
+  "@deleteFolderToTrash": {
+    "description": "Move folder to trash action"
+  },
+  "deleteFolderToTrashConfirm": "Are you sure you want to move \"{name}\" to trash?\n\nNotes in the folder will remain without a folder.",
+  "@deleteFolderToTrashConfirm": {
+    "description": "Move folder to trash confirmation message",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "My Folder"
+      }
+    }
+  },
+  "deleteFolderToTrashConfirmUntitled": "Are you sure you want to move this folder to trash?\n\nNotes in the folder will remain without a folder.",
+  "@deleteFolderToTrashConfirmUntitled": {
+    "description": "Move untitled folder to trash confirmation message"
+  },
+  "folderRestored": "Folder restored",
+  "@folderRestored": {
+    "description": "Folder restored snackbar message"
+  },
+  "deleteFolderPermanently": "Delete Folder Permanently",
+  "@deleteFolderPermanently": {
+    "description": "Delete folder permanently action"
+  },
+  "deleteFolderPermanentlyConfirm": "Are you sure you want to permanently delete \"{name}\"?\n\nThis action cannot be undone.",
+  "@deleteFolderPermanentlyConfirm": {
+    "description": "Delete folder permanently confirmation message",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "My Folder"
+      }
+    }
+  },
+  "deleteFolderPermanentlyConfirmUntitled": "Are you sure you want to permanently delete this folder?\n\nThis action cannot be undone.",
+  "@deleteFolderPermanentlyConfirmUntitled": {
+    "description": "Delete untitled folder permanently confirmation message"
+  },
+  "viewDeletedItems": "View deleted items",
+  "@viewDeletedItems": {
+    "description": "Trash setting subtitle with folders"
+  },
+  "notesTab": "Notes",
+  "@notesTab": {
+    "description": "Notes tab in trash page"
+  },
+  "foldersTab": "Folders",
+  "@foldersTab": {
+    "description": "Folders tab in trash page"
+  },
+  "noDeletedFolders": "No deleted folders",
+  "@noDeletedFolders": {
+    "description": "Empty deleted folders message"
+  },
+  "deletedFoldersAppear": "Deleted folders will appear here",
+  "@deletedFoldersAppear": {
+    "description": "Empty deleted folders hint"
+  },
+  "emptyTrashFolders": "Are you sure you want to permanently delete all folders in the trash?\n\nThis action cannot be undone.",
+  "@emptyTrashFolders": {
+    "description": "Empty trash folders confirmation message"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy policy link text"
+  },
+  "termsOfService": "Terms of Service",
+  "@termsOfService": {
+    "description": "Terms of service link text"
+  },
+  "reminder": "Reminder",
+  "@reminder": {
+    "description": "Reminder label"
+  },
+  "addReminder": "Add Reminder",
+  "@addReminder": {
+    "description": "Add reminder action"
+  },
+  "removeReminder": "Remove Reminder",
+  "@removeReminder": {
+    "description": "Remove reminder action"
+  },
+  "reminderSet": "Reminder set",
+  "@reminderSet": {
+    "description": "Reminder set snackbar message"
+  },
+  "reminderRemoved": "Reminder removed",
+  "@reminderRemoved": {
+    "description": "Reminder removed snackbar message"
+  },
+  "selectDateTime": "Select Date & Time",
+  "@selectDateTime": {
+    "description": "Select date and time dialog title"
+  },
+  "reminderNotification": "Note Reminder",
+  "@reminderNotification": {
+    "description": "Notification title for reminder"
+  },
+  "reminderNotificationBody": "Reminder: {title}",
+  "@reminderNotificationBody": {
+    "description": "Notification body for reminder",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "My Note"
+      }
+    }
+  },
+  "today": "Today",
+  "@today": {
+    "description": "Today label"
+  },
+  "tomorrow": "Tomorrow",
+  "@tomorrow": {
+    "description": "Tomorrow label"
+  },
+  "pickDateTime": "Pick date and time",
+  "@pickDateTime": {
+    "description": "Pick date and time hint"
+  },
+  "reminderPastError": "Cannot select a time in the past",
+  "@reminderPastError": {
+    "description": "Error message for past time selection"
+  },
+  "at": "at",
+  "archiveNote": "Archive Note",
+  "@archiveNote": {
+    "description": "Archive note dialog title"
+  },
+  "archiveNoteConfirm": "Are you sure you want to archive \"{title}\"?\n\nYou can find it in the archived notes section.",
+  "@archiveNoteConfirm": {
+    "description": "Archive note confirmation message",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "My Note"
+      }
+    }
+  },
+  "archiveNoteConfirmUntitled": "Are you sure you want to archive this note?\n\nYou can find it in the archived notes section.",
+  "@archiveNoteConfirmUntitled": {
+    "description": "Archive untitled note confirmation message"
+  },
+  "@at": {
+    "description": "Time separator word"
+  }
+}
